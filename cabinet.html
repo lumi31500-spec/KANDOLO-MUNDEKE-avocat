@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Cabinet — Maître KANDOLO MUNDEKE Medard, Avocat Marseille</title>
+<meta name="description" content="Découvrez le cabinet de Maître KANDOLO MUNDEKE Medard, avocat au Barreau de Marseille spécialisé en droit constitutionnel et international.">
+<link rel="stylesheet" href="style.css">
+<style>
+.cab-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 6rem; align-items: start; }
+.cab-frame { position: relative; }
+.cab-img { width: 100%; aspect-ratio: 3/4; background: linear-gradient(155deg,#e8e4dc,#ccc8be); display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 1rem; }
+.cab-img svg { opacity: .2; }
+.cab-img-note { font-style: italic; color: rgba(0,0,0,.3); font-size: .82rem; font-family: var(--fd); text-align: center; padding: 0 2rem; }
+.cab-filet { position: absolute; top: 2rem; left: 2rem; right: -2rem; bottom: -2rem; border: 1px solid rgba(201,168,76,.3); z-index: -1; }
+.cab-badge { position: absolute; bottom: -1.5rem; right: -1.5rem; background: var(--noir); border: 1px solid rgba(201,168,76,.25); padding: 1rem 1.5rem; text-align: center; }
+.cb-t { font-family: var(--fd); font-size: .8rem; color: var(--blanc); display: block; letter-spacing: .02em; }
+.cb-s { font-size: .6rem; color: var(--or); text-transform: uppercase; letter-spacing: .16em; margin-top: 4px; display: block; }
+.cab-right blockquote { font-family: var(--fd); font-style: italic; font-size: 1.25rem; color: var(--anthracite); border-left: 2px solid var(--or); padding-left: 1.5rem; margin: 2rem 0; line-height: 1.65; font-weight: 400; }
+.cab-p { color: var(--doux); line-height: 1.9; margin-bottom: 1rem; font-size: .95rem; }
+.cab-vals { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: 1.5rem; }
+.cv { display: flex; align-items: flex-start; gap: 9px; }
+.cv svg { width: 13px; height: 13px; stroke: var(--or); stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; margin-top: 5px; }
+.cv span { font-size: .86rem; color: var(--texte); }
+.distinction { background: var(--anthracite); padding: 4rem 8%; }
+.dist-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2px; margin-top: 3rem; }
+.dc2 { background: var(--gris-dk); padding: 2.5rem 2rem; border-top: 1px solid rgba(201,168,76,.2); transition: border-color .25s; }
+.dc2:hover { border-top-color: var(--or); }
+.dc2 h3 { font-family: var(--fd); font-size: 1.1rem; color: var(--blanc); margin: 1rem 0 .6rem; font-weight: 400; }
+.dc2 p { font-size: .84rem; color: rgba(255,255,255,.45); line-height: 1.75; }
+@media(max-width:1040px){ .cab-grid{grid-template-columns:1fr;gap:3rem;} .cab-filet{display:none;} .cab-badge{position:static;display:inline-block;margin-top:1rem;} .dist-grid{grid-template-columns:1fr 1fr;} .cab-vals{grid-template-columns:1fr;} }
+@media(max-width:640px){ .dist-grid{grid-template-columns:1fr;} }
+</style>
+</head><body><header>
+  <a href="index.html" class="logo"><span class="logo-t">Maître KANDOLO MUNDEKE Medard</span><span class="logo-s">Avocat — Barreau de Marseille</span></a>
+  <button class="burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav id="nav"><a href="index.html" >Accueil</a>
+    <a href="expertises.html" >Expertises</a>
+    <a href="cabinet.html" class='active'>Cabinet</a>
+    <a href="honoraires.html" >Honoraires</a>
+    <a href="contact.html" >Contact</a>
+    <a href="tel:+33622467537" class="nav-tel"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"/></svg>06 22 46 75 37</a>
+    <a href="contact.html" class="nav-cta">Prendre rendez-vous</a>
+  </nav>
+</header><div class="page-hero"><div class="breadcrumb"><a href="index.html">Accueil</a><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg><span>Cabinet</span></div><p class="s-lbl">À propos</p><h1 class="s-t">Le <em>Cabinet</em></h1><p>Un cabinet à dimension internationale, au carrefour du droit constitutionnel, humanitaire et comparé. Situé au cœur du 6e arrondissement de Marseille.</p></div>
+<section>
+  <div class="cab-grid">
+    <div class="cab-frame">
+      <div class="cab-img">
+        <svg width="72" height="72" viewBox="0 0 24 24" fill="var(--gris-md)"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <p class="cab-img-note">Photo à venir</p>
+      </div>
+      <div class="cab-filet"></div>
+      <div class="cab-badge"><span class="cb-t">Barreau de Marseille</span><span class="cb-s">Droit international & constitutionnel</span></div>
+    </div>
+    <div class="reveal">
+      <p class="s-lbl">Maître KANDOLO MUNDEKE Medard</p>
+      <h2 class="s-t">Avocat aux<br><em>dimensions multiples</em></h2>
+      <blockquote>"Le droit n'est pas qu'une technique — c'est un outil de justice au service des personnes et des peuples."</blockquote>
+      <p class="cab-p">Inscrit au Barreau de Marseille, Maître KANDOLO MUNDEKE Medard développe une pratique juridique qui se distingue par sa dimension internationale et comparative. Son parcours académique et professionnel l'a conduit à maîtriser des domaines juridiques rarement réunis au sein d'un même cabinet.</p>
+      <p class="cab-p">La justice constitutionnelle, le droit international humanitaire, les sciences criminelles et le droit comparé forment un ensemble cohérent qui permet d'aborder les dossiers les plus complexes avec une vision globale, informée par plusieurs traditions juridiques.</p>
+      <p class="cab-p">Son cabinet, situé au 79 cours Pierre Puget dans le 6e arrondissement de Marseille, est un lieu d'expertise juridique rigoureux, ouvert aux affaires impliquant plusieurs systèmes de droit ou des enjeux supranationaux.</p>
+      <div class="cab-vals">
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Vision internationale du droit</span></div>
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Approche académique et pratique</span></div>
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Droit comparé multisystème</span></div>
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Sciences criminelles appliquées</span></div>
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Langues : Français / Anglais</span></div>
+        <div class="cv"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>Réponse garantie sous 24h</span></div>
+      </div>
+      <a href="contact.html" class="btn-or" style="margin-top:2rem">Prendre rendez-vous <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
+</section>
+<div class="distinction">
+  <p class="s-lbl" style="color:rgba(201,168,76,.7)">Ce qui nous distingue</p>
+  <h2 class="s-t s-t-blanc">Une pratique <em>unique</em></h2>
+  <div class="dist-grid">
+    <div class="dc2 reveal"><div class="ic-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><h3>Dimension internationale</h3><p>Une maîtrise des mécanismes juridiques internationaux et supranationaux rarement disponible dans un cabinet local à Marseille.</p></div>
+    <div class="dc2 reveal"><div class="ic-box"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></div><h3>Fondements académiques</h3><p>Une approche nourrie par la recherche juridique et les sciences criminelles, qui enrichit la construction des arguments et des stratégies.</p></div>
+    <div class="dc2 reveal"><div class="ic-box"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="9" height="18" rx="1"/><rect x="13" y="3" width="9" height="18" rx="1"/></svg></div><h3>Droit comparé opérationnel</h3><p>La connaissance de plusieurs systèmes juridiques permet de traiter des affaires multiculturellesconstitutionnelles avec efficacité et précision.</p></div>
+  </div>
+</div>
+<div class="cta-band"><div><p class="cta-band-t">Une affaire complexe ?<br><em>Contactez le cabinet.</em></p><p class="cta-band-sub">79 cours Pierre Puget, 13006 Marseille — Réponse sous 24h</p></div><div class="cta-band-a"><a href="tel:+33622467537" class="tel-big"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"/></svg>06 22 46 75 37</a><a href="contact.html" class="btn-or">Prendre rendez-vous <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand"><span class="logo-t">Maître KANDOLO MUNDEKE Medard</span><span class="logo-s">Avocat — Barreau de Marseille</span><p>Spécialisé en justice constitutionnelle, droit international humanitaire, droit privé et sciences criminelles, et études juridiques comparatives. Cabinet au 79 cours Pierre Puget, 13006 Marseille.</p></div>
+    <div class="footer-col"><h4>Navigation</h4><a href="index.html">Accueil</a><a href="expertises.html">Expertises</a><a href="cabinet.html">Cabinet</a><a href="honoraires.html">Honoraires</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Expertises</h4><a href="expertises.html#constitutionnel">Justice constitutionnelle</a><a href="expertises.html#humanitaire">Droit humanitaire</a><a href="expertises.html#prive">Droit privé & criminel</a><a href="expertises.html#compare">Droit comparé</a></div>
+    <div class="footer-col"><h4>Contact</h4><p>79 cours Pierre Puget<br>13006 Marseille, France</p><a href="tel:+33622467537">06 22 46 75 37</a><a href="mailto:contact@KANDOLO-MUNDEKE-avocat.com">contact@KANDOLO-MUNDEKE-avocat.com</a></div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2024 Maître KANDOLO MUNDEKE Medard — Avocat au Barreau de Marseille</div>
+    <div class="footer-powered">Site réalisé par <a href="https://www.hidea-solution.fr" target="_blank" rel="noopener">Hidea Solution</a></div>
+    <div class="footer-legal"><a href="#">Mentions légales</a><a href="#">Confidentialité</a><a href="#">Cookies</a></div>
+  </div>
+</footer><script src="main.js"></script>
+</body></html>
